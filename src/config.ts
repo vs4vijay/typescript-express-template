@@ -8,7 +8,7 @@ export const config = {
     port: Number(process.env.PORT || 5000),
   },
   db: {
-    type: process.env.DB_TYPE || 'oracle',
+    type: process.env.DB_TYPE || 'sqlite',
     host: process.env.DB_HOST,
     port: Number(process.env.DB_PORT),
     username: process.env.DB_USERNAME,

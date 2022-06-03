@@ -38,7 +38,7 @@ class App {
         (_) => _,
         (reason) => {
           this.logger.error(reason);
-          process.exit(1);
+          // process.exit(1);
         },
       )
       .catch(this.logger.error);
