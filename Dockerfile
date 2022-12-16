@@ -1,5 +1,5 @@
 ########### Stage 1 ###########
-FROM node:14.16.1-alpine as builder
+FROM node:14.21-alpine as builder
 
 # Update image
 RUN apk update
@@ -24,7 +24,7 @@ COPY src /app/src
 RUN npm run build
 
 ########### Stage 2 ###########
-FROM node:14.16.1-alpine
+FROM node:14.21-alpine
 LABEL maintainer="vs4vijay@gmail.com"
 
 WORKDIR /app
