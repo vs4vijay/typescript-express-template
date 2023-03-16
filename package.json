@@ -61,7 +61,7 @@
     "morgan": "^1.10.0",
     "reflect-metadata": "^0.1.13",
     "routing-controllers": "^0.8.1",
-    "sqlite3": "^5.0.1",
+    "sqlite3": "^5.1.5",
     "typedi": "^0.8.0",
     "typeorm": "^0.2.28",
     "typeorm-typedi-extensions": "^0.2.3",
